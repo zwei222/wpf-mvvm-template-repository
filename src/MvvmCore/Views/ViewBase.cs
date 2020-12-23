@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows;
-using Prism.Mvvm;
 
 namespace MvvmCore.Views
 {
@@ -14,7 +13,7 @@ namespace MvvmCore.Views
         /// </summary>
         protected ViewBase()
         {
-            ViewModelLocator.SetAutoWireViewModel(this, true);
+            // not process.
         }
 
         /// <inheritdoc />
